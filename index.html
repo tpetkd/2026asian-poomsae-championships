@@ -913,7 +913,7 @@
 
     <script>
         // ==================== Configuration ====================
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwMPV3a02LHicJbELOkVLbh_UXRJiDQrp_H1ESdsD5fcM-IbTG7xYaf6_bKIdpLNj49/exec';
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxmPWIMoOkHowiYaI2QiOgUf405UpC_IaeOXMeGs5kyTqSKn3WR4ceD3-58ArKlLKx9/exec';
         const PREVIEW_MODE = false;
 
         if (PREVIEW_MODE) {
@@ -1123,7 +1123,7 @@
                 formData.forEach((value, key) => { jsonData[key] = value; });
                 jsonData.submitted_at = new Date().toISOString();
 
-                if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwMPV3a02LHicJbELOkVLbh_UXRJiDQrp_H1ESdsD5fcM-IbTG7xYaf6_bKIdpLNj49/exec') {
+                if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbxmPWIMoOkHowiYaI2QiOgUf405UpC_IaeOXMeGs5kyTqSKn3WR4ceD3-58ArKlLKx9/exec') {
                     console.log('Demo mode - Form data:', jsonData);
                     await new Promise(resolve => setTimeout(resolve, 1500));
                 } else {
